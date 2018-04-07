@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.marrezarifa.comamonitoring.rslogin"
+    android:background="#D5D9D9">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="116dp"
+        android:src="@drawable/logors"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:id="@+id/idrs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_person_24dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="ID Hospital"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColorHint="#054D44"/>
+
+    <EditText
+        android:id="@+id/pasrs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_lock_24dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textAllCaps="false"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColorHint="#054D44" />
+
+    <Button
+        android:id="@+id/btn_loginrs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Log in"
+        android:onClick="loginrs"
+        android:textAllCaps="false"
+        android:textColor="#D5D9D9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="310dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

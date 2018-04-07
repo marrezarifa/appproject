@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D9D9"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.marrezarifa.comamonitoring.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+
+        android:layout_width="177dp"
+        android:layout_height="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        app:srcCompat="@drawable/bsm"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/btn_hoslogin"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#054D44"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_local_hospital"
+        android:padding="16dp"
+        android:text="   Hospital Login"
+        android:onClick="HospitalLogin"
+        android:textAlignment="textStart"
+        android:textColor="#FFCFE6E4"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_famlogin"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_alignStart="@+id/btn_hoslogin"
+        android:layout_below="@+id/btn_hoslogin"
+        android:backgroundTint="#054D44"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_face"
+        android:padding="16dp"
+        android:text="   Family Login"
+        android:onClick="FamilyLogin"
+        android:textAlignment="textStart"
+        android:textColor="#FFCFE6E4"
+        android:textStyle="bold" />
+</RelativeLayout>

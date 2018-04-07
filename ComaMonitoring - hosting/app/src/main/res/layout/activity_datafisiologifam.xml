@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#D5D9D9"
+    tools:context="com.example.marrezarifa.comamonitoring.datafisiologi">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#acd1cc"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/idbrpm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="190dp"
+                    android:text="170"
+                    android:textColor="#054D44"
+                    android:textSize="50sp"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:id="@+id/ketidbrpm"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="145dp"
+                    android:text="tak normal"
+                    android:textColor="#054D44"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-smallcaps"
+                    />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/cardiogram" />
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:background="#acd1cc"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/idbtpm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="190dp"
+                    android:text="120"
+                    android:textColor="#054D44"
+                    android:textSize="50sp"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:id="@+id/ketidbtpm"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="145dp"
+                    android:text=" tak normal"
+                    android:textColor="#054D44"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-smallcaps"
+                    />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/lung" />
+
+            <LinearLayout
+                android:layout_width="320dp"
+                android:layout_height="160dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="340dp"
+                android:background="#acd1cc"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ketidmata"
+                    android:layout_width="160dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="145dp"
+                    android:layout_marginTop="62dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="tertutup"
+                    android:textAlignment="center"
+                    android:textColor="#054D44"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="345dp"
+                android:layout_marginStart="15dp"
+                android:src="@drawable/eye" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

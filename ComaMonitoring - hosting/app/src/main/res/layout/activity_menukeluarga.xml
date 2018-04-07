@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#D5D9D9"
+    tools:context="com.example.marrezarifa.comamonitoring.menukeluarga">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="146dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/pasien" />
+
+    <Button
+        android:id="@+id/btn_lihatbio"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#054D44"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_info"
+        android:padding="16dp"
+        android:text="  Lihat Biodata Pasien"
+        android:onClick="biopasien"
+        android:textAlignment="textStart"
+        android:textColor="#FFCFE6E4"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_fisiopasien"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="310dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#054D44"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_fisio"
+        android:padding="16dp"
+        android:text="   Tampilkan Fisiologi Pasien"
+        android:onClick="fisiopasien"
+        android:textAlignment="textStart"
+        android:textColor="#FFCFE6E4"
+        android:textStyle="bold" />
+
+</RelativeLayout>

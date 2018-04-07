@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Coma Monitoring</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_pasien">List Pasien</string>
+</resources>

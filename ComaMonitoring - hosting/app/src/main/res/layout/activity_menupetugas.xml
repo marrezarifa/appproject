@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.marrezarifa.comamonitoring.menupetugas">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#075E54"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D5D9D9"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="116dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/logors" />
+
+        <Button
+            android:id="@+id/btn_inpasien"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:backgroundTint="#054D44"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_data"
+            android:padding="16dp"
+            android:text="  Input Data Pasien"
+            android:onClick="inpasien"
+            android:textAlignment="textStart"
+            android:textColor="#FFCFE6E4"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_dafpasien"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="310dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#054D44"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_list"
+            android:padding="16dp"
+            android:text="   Daftar Pasien"
+            android:onClick="daftarpasien"
+            android:textAlignment="textStart"
+            android:textColor="#FFCFE6E4"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>

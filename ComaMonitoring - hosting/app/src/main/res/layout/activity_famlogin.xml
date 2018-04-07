@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5D9D9"
+
+    tools:context="com.example.marrezarifa.comamonitoring.famlogin">
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_height="146dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/pasien" />
+
+    <EditText
+        android:id="@+id/txidpas"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_person_24dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="ID Pasien"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColorHint="#054D44"/>
+
+    <EditText
+        android:id="@+id/txpasspas"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_lock_24dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textAllCaps="false"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColorHint="#054D44" />
+
+    <Button
+        android:id="@+id/btn_loginfam"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_login"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Log in"
+        android:onClick="loginpasien"
+        android:textAllCaps="false"
+        android:textColor="#D5D9D9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
